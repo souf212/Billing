@@ -1,0 +1,38 @@
+# Local environment files (keep templates in Git)
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+
+# Angular / Node dependencies and generated output
+node_modules/
+dist/
+.angular/
+out-tsc/
+coverage/
+.nyc_output/
+
+# Maven / Java generated output
+target/
+*.class
+
+# Logs and temporary files
+*.log
+tmp/
+temp/
+*.tmp
+*.swp
+*.swo
+
+# Local IDE settings
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
